@@ -1,0 +1,111 @@
+/* FONT FOR ALL THE TITLE */
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap");
+
+/* FONT FOR THE OTHER TAGS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1E4E59;
+    color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "David Libre", serif;
+    color: #BFD9D6;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #f2f2f2;
+}
+
+a {
+    color: #72A68E;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6); */
+
+/* ===== CUSTOM MOUSE CURSOR ===== */
+
+.cursor {
+    position: absolute;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 999;
+    transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+      0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+    pointer-events: none;
+    transform: scale(0.8);
+    z-index: 999;
+  }
+  
+  .cursor::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/project-hover-cursor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    opacity: 1;
+    z-index: 999;
+  }
+  
+  .cursor.active {
+    opacity: 1;
+    transform: scale(9);
+  }
+  
+  .cursor.active::before {
+    opacity: 1;
+  }
+  
+  .cursor-follower {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 999;
+    transform: translate(4px, 4px);
+    transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+      0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+    user-select: none;
+    pointer-events: none;
+  }
+  
+  .cursor-follower.active {
+    opacity: 0.3;
+    transform: scale(0);
+  }
