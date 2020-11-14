@@ -53,7 +53,9 @@ btn_1.addEventListener("click", (e) => {
 });
 
 
-// project section
+/*  PROJECT IMAGE OVERLAY ON MOUSE OVER
+    IN HOME PAGE
+*/
 var $cursor = $(".cursor-2"),
   $overlay = $(".project-overlay");
 
@@ -91,3 +93,15 @@ $($overlay).mouseout(function() {
   flag = false;
   TweenLite.to($cursor, 0.3, { scale: 0.1, autoAlpha: 0 });
 });
+
+
+
+/* PROJECT BOX HORIZONTAL SCROLL IN PROJECT PAGE */
+var blocks = document.getElementsByClassName('block');
+var content = document.getElementsByClassName('project-box');
+var hs = new HorizontalScroll.default({
+  blocks: blocks,
+  content: CredentialsContainer,
+  isAnimated: true,
+  springEffect: 0.8,
+})

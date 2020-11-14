@@ -189,7 +189,7 @@
 }
 
 .contacts-social__network span {
-    display: none;
+    /* display: none; */
 }
 
 .contact-link {
