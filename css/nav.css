@@ -142,3 +142,44 @@
   transform: rotate(-45deg);
   top: 15px;
 }
+
+
+
+@media (min-width: 576px) {
+  #nav-menu .menu {
+    width: 410px;
+  }
+  #nav-menu .menu ul li {
+    margin-left: 30px;
+  }
+
+  #nav-menu .menu ul li a {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-menu .menu {
+    width: 450px;
+  }
+  #nav-menu .menu ul li {
+    margin-left: 40px;
+  }
+
+  #nav-menu .menu ul li a {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nav-menu .menu {
+    width: 520px;
+  }
+  #nav-menu .menu ul li {
+    margin-left: 40px;
+  }
+
+  #nav-menu .menu ul li a {
+    font-size: 50px;
+  }
+}
