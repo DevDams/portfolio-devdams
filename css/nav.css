@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   padding-bottom: 10px;
-  background: #1E4E59;
+  background: #1e4e59;
   z-index: 10;
 }
 
@@ -21,7 +21,7 @@
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 #nav-menu .menu-overlay {
@@ -49,7 +49,7 @@
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #1E4E59;
+  background-color: #1e4e59;
   padding: 32px 16px;
   transform: translateX(100%);
   transition: transform 0.6s ease-in-out;
@@ -73,8 +73,8 @@
   font-weight: 400;
   font-size: 35px;
   font-family: "David Libre", serif;
-  color: #BFD9D6;
-  transition: all .3s ease;
+  color: #bfd9d6;
+  transition: all 0.3s ease;
   /* color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6); */
 }
