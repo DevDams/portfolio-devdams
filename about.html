@@ -3,37 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Portfolio</title>
+    <title>A propos | Portfolio</title>
 
     <!-- = BOOTSTRAP CSS = -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- = LOCOMOTIVE SCROLL CSS FOR SMOOTH SCROLL = -->
-    <link rel="stylesheet" href="css/locomotive-scroll.css">
-
     <!-- = CUSTOM CSS = -->
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
 
-    <div data-scroll-container>
-        <div data-scroll-section class="one">
-            <h1 data-scroll>Welcome 1</h1>
+
+    <!-- ===== CUSTOM MOUSE CURSOR ===== -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- ===== NAVIGATION MENU ===== -->
+    <section id="nav-menu">
+        <div class="nav-menu-content">
+            <div class="container">
+                <div class="row">
+                <div class="col-6">
+                    <div class="logo">
+                    <h4>Aimé.</h4>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                <li><span>01.</span> <a href="home.html">Home</a></li>
+                <li><span>02.</span> <a href="about.html">About</a></li>
+                <li><span>03.</span> <a href="project.html">Projects</a></li>
+                <li><span>04.</span> <a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
         </div>
+        <div class="menu-overlay"></div>
+    </section>
+
+
+    <!-- = INTRO SECTION = -->
+    <section id="my-info">
+        <div class="container my-info__box">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="my-info__title">
+                        <h1>N'DA Adams Aimé-Désiré</h1>
+                    </div>
+                    <div class="my-info__info">
+                        <ul>
+                            <li><span>Age :</span> 20 ans</li>
+                            <li><span>Taille :</span> 1m77</li>
+                            <li><span>Centre d'intéret :</span> Manga, Jeux vidéos, musique, lecture, cuisine</li>
+                            <li><span>Super pouvoir :</span> Très discret..</li>
+                        </ul>
+                    </div>
+                    <div class="my-info__link">
+                        <a href="">Mon CV</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="my-info__story_title">
+                        <h2>Qui suis-je ?</h2>
+                    </div>
+                    <div class="my-info__story_content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime ea itaque sequi sunt temporibus odio fugiat! Autem, ab sed! Autem,
+                            odit vero ut recusandae error voluptatum magnam quisquam voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime ea itaque sequi sunt temporibus odio fugiat! Autem, ab sed! Autem,
+                            odit vero ut recusandae error voluptatum magnam quisquam voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime ea itaque sequi sunt temporibus odio fugiat! Autem, ab sed! Autem,
+                            odit vero ut recusandae error voluptatum magnam quisquam voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime ea itaque sequi sunt temporibus odio fugiat! Autem, ab sed! Autem,
+                            odit vero ut recusandae error voluptatum magnam quisquam voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime ea itaque sequi sunt temporibus odio fugiat! Autem, ab sed! Autem,
+                            odit vero ut recusandae error voluptatum magnam quisquam voluptatibus nobis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
-        <div data-scroll-section class="two">
-            <h1 data-scroll>Welcome 2</h1>
+    <!-- = FORMATION SECTION -->
+    <section id="my-formation">
+        <div class="container">
+            <div class="my-formation__content">
+                <div class="my-formtion__title">
+                    <h1>Mes formations.</h1>
+                    <span></span>
+                </div>
+                <div class="my-formation__content_box">
+                    <div class="my-formation__content_boxItem">
+                        <h2>Autodidacte - Dev web, Programmation</h2>
+                        <p><span>Date :</span> 2019 - maintenant</p>
+                    </div>
+                    <div class="my-formation__content_boxItem">
+                        <h2>Université Felix Houphouet Boigny - UFR de Biosciences</h2>
+                        <p><span>Date :</span> mars 2019 - mai 2020</p>
+                    </div>
+                    <div class="my-formation__content_boxItem">
+                        <h2>Baccalauréat Scientifique</h2>
+                        <p><span>Date :</span> juillet 2018</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+
+    <!-- = CERTIFICATION SECTION = -->
+    <section id="certificat">
+        <div class="container">
+            <div class="certificat-content">
+                <div class="certificat-content__title">
+                    <h1>Mes certifications.</h1>
+                </div>
+                <div class="row certificat-content__line-1">
+                    <div class="col-sm-4">
+                        <div class="certificat-1"></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="certificat-2"></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="certificat-3"></div>
+                    </div>
+                </div>
+                <div class="row certificat-content__line-2">
+                    <div class="col-sm-4">
+                        <div class="certificat-4"></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="certificat-5"></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="certificat-6"></div>
+                    </div>
+                </div>
+                <div class="certificat-content__link">
+                    <a href="">Tout voir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- = SKILLS SECTIONS = -->
+    <section id="skills">
+        <div class="container">
+            <div class="skills-content">
+                <div class="skills-content__title">
+                    <h1>Mes skills</h1>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
     <!-- = JQUERY = -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- = BOOTSTRAP JS = -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- = LOCOMOTIVE SCROLL CSS FOR SMOOTH SCROLL = -->
-    <script src="js/locomotive-scroll.min.js"></script>
     <!-- = GSAP = -->
     <script src="js/gsap.min.js"></script>
     <!-- = CUSTOM JS = -->
