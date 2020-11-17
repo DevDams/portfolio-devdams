@@ -98,10 +98,10 @@ $($overlay).mouseout(function() {
 
 /* PROJECT BOX HORIZONTAL SCROLL IN PROJECT PAGE */
 var blocks = document.getElementsByClassName('block');
-var content = document.getElementsByClassName('project-box');
+var container = document.getElementsByClassName('project-box');
 var hs = new HorizontalScroll.default({
-  blocks: blocks,
-  content: CredentialsContainer,
+	blocks : blocks,
+	container: container,
   isAnimated: true,
   springEffect: 0.8,
 })
