@@ -1,80 +1,99 @@
-html, body {
-    overflow: hidden;
+html,
+body {
+  overflow: hidden;
 }
-
 
 #projects {
-    height: 650px;
+  height: 100vh;
+  margin-top: 60px;
 }
 
-.block {
+.project-content__title {
     position: relative;
-    width: 500px;
-    height: 400px;
-    margin: -50px 300px 20px 80px;
+    top: 50px;
+    text-align: center;
 }
 
-h1 {
+.project-content__title h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.project-content__title span {
     position: absolute;
-    font-size: 64px;
-}
-
-.block-1 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.block-2 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.block-3 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.block-4 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.block-5 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.block-6 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.block-7 {
-    background: url('/images/image-1.jpg') no-repeat 50% 50%;
-    background-size: cover;
+    width: 150px;
+    height: 1px;
+    background-color: #bfd9d6;
+    top: 53px;
+    margin-left: -78px;
 }
 
 .project-box {
-    margin-top: 200px;
-    margin-left: 200px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.block {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  margin: -50px 300px 20px 80px;
+}
+
+.block h1 {
+  position: absolute;
+  font-size: 64px;
+}
+
+.block-1 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-2 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-3 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-4 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-5 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-6 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-7 {
+  background: url("/images/image-1.jpg") no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .block-1 h1,
 .block-3 h1,
 .block-5 h1,
 .block-7 h1 {
-    bottom: 0;
-    right: -60px;
+  bottom: 0;
+  right: -60px;
 }
 
 .block-2 h1,
 .block-4 h1,
 .block-6 h1 {
-    right: -60px;
+  right: -60px;
 }
 
-
-
 #footer {
-    text-align: center;
+  text-align: center;
 }
