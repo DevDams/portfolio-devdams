@@ -1,0 +1,36 @@
+.contact-title {
+    margin-top: 150px;
+}
+
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info ul li {
+    padding: 5px 0;
+}
+
+.contact-info span {
+    font-weight: 700;
+    color: #72a68e;
+}
+
+
+.contact-info__link {
+    margin-top: 40px;
+}
+
+.contact-info__link ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info__link a {
+    padding: 0 20px;
+}
+
+.contact-info__link i {
+    color: white;
+    font-size: 21px;
+}

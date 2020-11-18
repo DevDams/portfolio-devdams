@@ -204,7 +204,7 @@
     margin-bottom: 50px;
   }
 
-
+  
   .certificat-content__line-1 {
     margin-top: 0;
   }
@@ -251,7 +251,7 @@
   }
 
   .skils_content__list {
-      width: 82%;
+    width: 82%;
   }
 
   .skils_content__list img {
@@ -265,27 +265,27 @@
 }
 
 @media (min-width: 992px) {
-    .skills-content__text {
-        width: 800px;
-    }
+  .skills-content__text {
+    width: 800px;
+  }
 
-    .skils_content__list {
-        width: 62%;
-        margin-top: 100px;
-    }
+  .skils_content__list {
+    width: 62%;
+    margin-top: 100px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .skills-content__title {
-        margin-left: 80px;
-    }
+  .skills-content__title {
+    margin-left: 80px;
+  }
 
-    .skills-content__text {
-        margin-left: 80px;
-    }
+  .skills-content__text {
+    margin-left: 80px;
+  }
 
-    .skils_content__list {
-        width: 52%;
-        margin-top: 70px;
-    }
+  .skils_content__list {
+    width: 52%;
+    margin-top: 70px;
+  }
 }
