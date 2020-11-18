@@ -32,7 +32,10 @@
 }
 
 .intro-info a {
-  border-bottom: 1px solid #f2f2f2;
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1px solid #72a68e;
 }
 
 #about {
@@ -50,7 +53,10 @@
 }
 
 .about-text a {
-  border-bottom: 1px solid white;
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1px solid #72a68e;
 }
 
 .about-img__profile {
@@ -141,7 +147,10 @@
 }
 
 .my-projects__link a {
-  border-bottom: 1px solid white;
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1px solid #72a68e;
 }
 
 #contacts {
@@ -318,7 +327,6 @@
 
   .about-title {
     margin-top: 150px;
-    text-align: center;
   }
 
   #my-projects {
