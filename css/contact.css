@@ -40,14 +40,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
 }
 
 .form {
     width: 360px;
     padding: 4rem 2rem;
     border-radius: 1rem;
-    background: #72a68e;
+    background: #4995A6;
     box-shadow: 0 10px 25px rgba(214, 214, 214, 0.2);
     margin-top: 230px;
 }
@@ -84,7 +84,7 @@
     left: 1rem;
     top: 1rem;
     padding: 0 .25rem;
-    background-color: #72a68e;
+    background-color: #4995A6;
     font-size: 18px;
     transition: .3s;
     color: #f2f2f2;
@@ -98,7 +98,7 @@
     padding: .75rem 2rem;
     outline: none;
     border: none;
-    background: #618c8c;
+    background: #1E4E59;
     color: #f2f2f2;
     font-size: 20px;
     font-weight: 600;
