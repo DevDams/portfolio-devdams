@@ -48,6 +48,10 @@
   top: 50px;
 }
 
+.about-title .icon {
+  font-size: 30px;
+}
+
 .about-text {
   margin-top: 60px;
 }
@@ -68,15 +72,15 @@
 }
 
 #my-projects {
-  height: 650px;
+  height: 1200px;
 }
 
 .my-projects__title {
   margin-top: 30px;
 }
 
-.my-projects__title h1 {
-  width: 200px;
+.my-projects__title .icon {
+  font-size: 30px;
 }
 
 .my-projects__title span {
@@ -135,8 +139,18 @@
   color: white;
 }
 
+.project-list__description P {
+  width: 100%;
+  z-index: -2;
+}
+
+.project-list__description-right p {
+  width: 100%;
+  z-index: -2;
+}
+
 .project-categ {
-  font-weight: lighter;
+  font-weight: 600;
   color: #72a68e;
 }
 
@@ -163,7 +177,7 @@
 }
 
 #contacts {
-  height: 700px;
+  height: 650px;
   text-align: center;
 }
 
@@ -185,7 +199,7 @@
 
 .contacts-adress {
   position: relative;
-  top: 150px;
+  top: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -197,12 +211,20 @@
 }
 
 .contacts-social__network {
-  margin-top: 210px;
+  margin-top: 160px;
 }
 
 .contacts-social__network ul li {
   display: inline-block;
   padding: 7px 15px;
+}
+
+.contacts-social__network ul li a {
+  color: #bfd9d6;
+}
+
+.contacts-social__network i {
+  color: white;
 }
 
 .contact-link {
@@ -219,8 +241,39 @@
   text-align: center;
 }
 
+
+
+@media (max-width: 304px) {
+  #my-projects {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 320px) {
+  #about {
+    margin-top: 100px;
+  }
+
+  #contacts {
+    height: 700px;
+  }
+}
+
+@media (min-width: 367px) {
+  #my-projects {
+    height: 1150px;
+  }
+}
+
 @media (min-width: 430px) {
   #my-projects {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 436px) {
+  #my-projects {
+    height: 1050px;
     margin-top: 100px;
   }
 }
@@ -240,6 +293,12 @@
 @media (min-width: 520px) {
   #my-projects {
     margin-top: 160px;
+  }
+}
+
+@media (min-width: 547px) {
+  #my-projects {
+    height: 990px;
   }
 }
 
@@ -277,6 +336,7 @@
   }
 
   #my-projects {
+    height: 1050px;
     margin-top: 0;
   }
 
@@ -312,6 +372,16 @@
 
   .intro-network__contact i {
     font-size: 20px;
+  }
+
+
+  #my-projects {
+    height: 980px;
+    margin-top: 0;
+  }
+
+  .project-list__description-right p {
+    margin-left: 30px;
   }
 
   .contacts-adress p {
@@ -350,7 +420,6 @@
   }
 
   .my-projects__title h1 {
-    width: 200px;
     margin-left: 50px;
   }
 
@@ -363,8 +432,16 @@
     margin-top: 10px;
   }
 
+  .project-list__description-right p {
+    margin-left: 50px;
+  }
+
   #contacts {
     margin-top: 80px;
+  }
+
+  .contacts-title {
+    margin-right: 80px;
   }
 
   .contacts-social__network ul li {
@@ -395,5 +472,9 @@
 
   .about-img__profile img {
     width: 80%;
+  }
+
+  #my-projects {
+    height: 850px;
   }
 }

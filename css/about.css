@@ -142,16 +142,28 @@
   top: 310px;
 }
 
-.skils_content__list {
+.skils_content__list_1 {
+  display: flex;
+  justify-content: center;
   margin-top: 80px;
+}
+
+.skils_content__list_2 {
+  display: flex;
+  justify-content: center;
 }
 
 .skils_content__list ul {
   display: flex;
 }
 
-.skils_content__list img {
-  width: 80%;
+.skils_content__list ul li {
+  padding: 0 10px;
+}
+
+.skils_content__list ul li i {
+  color: white;
+  font-size: 60px;
 }
 
 #footer {
@@ -178,17 +190,15 @@
   }
 
   .skils_content__list {
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    margin-top: 60px;
+    margin-top: -10px;
   }
 
-  .skils_content__list img {
-    width: 100px;
-    margin: 0 35px 0 0;
+  .skils_content__list ul li {
+    padding: 0 18px;
+  }
+
+  .skils_content__list i {
+    font-size: 70px;
   }
 }
 
@@ -204,7 +214,6 @@
     margin-bottom: 50px;
   }
 
-  
   .certificat-content__line-1 {
     margin-top: 0;
   }
@@ -250,13 +259,12 @@
     margin-top: 0;
   }
 
-  .skils_content__list {
-    width: 82%;
+  .skils_content__list ul li {
+    padding: 0 25px;
   }
 
-  .skils_content__list img {
-    width: 130px;
-    margin: 0 30px;
+  .skils_content__list ul li i {
+    font-size: 80px;
   }
 
   #footer {
@@ -267,11 +275,6 @@
 @media (min-width: 992px) {
   .skills-content__text {
     width: 800px;
-  }
-
-  .skils_content__list {
-    width: 62%;
-    margin-top: 100px;
   }
 }
 
@@ -284,8 +287,7 @@
     margin-left: 80px;
   }
 
-  .skils_content__list {
-    width: 52%;
-    margin-top: 70px;
+  .skils_content__list ul li i {
+    font-size: 90px;
   }
 }
