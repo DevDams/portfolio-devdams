@@ -94,7 +94,7 @@
 .certificat-1 {
   width: 100%;
   height: 300px;
-  background-image: url("../images/img1.png");
+  background-image: url("../images/certificat-1.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -103,7 +103,7 @@
 .certificat-2 {
   width: 100%;
   height: 300px;
-  background-image: url("../images/img2.png");
+  background-image: url("../images/certificat-2.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -112,7 +112,7 @@
 .certificat-3 {
   width: 100%;
   height: 300px;
-  background-image: url("../images/img3.png");
+  background-image: url("../images/certificat-3.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -231,7 +231,7 @@
   .certificat-4 {
     width: 100%;
     height: 300px;
-    background-image: url("../images/img1.png");
+    background-image: url("../images/certificat-4.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
@@ -240,7 +240,7 @@
   .certificat-5 {
     width: 100%;
     height: 300px;
-    background-image: url("../images/img2.png");
+    background-image: url("../images/certificat-5.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
@@ -249,7 +249,7 @@
   .certificat-6 {
     width: 100%;
     height: 300px;
-    background-image: url("../images/img3.png");
+    background-image: url("../images/certificat-6.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;

@@ -104,4 +104,15 @@ var hs = new HorizontalScroll.default({
 	container: container,
   isAnimated: true,
   springEffect: 0.8,
-})
+});
+
+
+
+/***
+ * PANZOOM JS FOR DRAGGABLE CANVA
+ */
+var element = document.querySelector('.container');
+panzoom(element, {
+  minZoom: 1,
+  maxZoom: 1
+});

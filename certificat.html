@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificats - Adams Aimé-Désiré</title>
+
+    <!-- = BOOTSTRAP CSS = -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- = CUSTOM CSS = -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/certificat.css">
+</head>
+<body>
+
+
+    <!-- ===== CUSTOM MOUSE CURSOR ===== -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+
+    <div class="header">
+        Explorez 🔍 les certificats en faisant glicer le canevas <br>
+        (Vous pouvez zoomer 🤫 😉)
+    </div>
+
+
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="line">
+                    <div class="col-2"><div class="block block-1"></div></div>
+                    <div class="col-2"><div class="block block-2"></div></div>
+                    <div class="col-2"><div class="block block-3"></div></div>
+                    <div class="col-2"><div class="block block-4"></div></div>
+                    <div class="col-2"><div class="block block-5"></div></div>
+                    <div class="col-2"><div class="block block-6"></div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="line">
+                    <div class="col-2"><div class="block block-7"></div></div>
+                    <div class="col-2"><div class="block block-8"></div></div>
+                    <div class="col-2"><div class="block block-9"></div></div>
+                    <div class="col-2"><div class="block block-10"></div></div>
+                    <div class="col-2"><div class="block block-11"></div></div>
+                    <div class="col-2"><div class="block block-12"></div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="line">
+                    <div class="col-2"><div class="block block-13"></div></div>
+                    <div class="col-2"><div class="block block-14"></div></div>
+                    <div class="col-2"><div class="block block-15"></div></div>
+                    <div class="col-2"><div class="block block-16"></div></div>
+                    <div class="col-2"><div class="block block-17"></div></div>
+                    <div class="col-2"><div class="block block-18"></div></div>
+                </div>   
+            </div>
+            <div class="row">
+                <div class="line">
+                    <div class="col-2"><div class="block block-19"></div></div>
+                    <div class="col-2"><div class="block block-20"></div></div>
+                    <div class="col-2"><div class="block block-21"></div></div>
+                    <div class="col-2"><div class="block block-22"></div></div>
+                    <div class="col-2"><div class="block block-23"></div></div>
+                    <div class="col-2"><div class="block block-24"></div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="line">
+                    <div class="col-2"><div class="block block-25"></div></div>
+                    <div class="col-2"><div class="block block-26"></div></div>
+                    <div class="col-2"><div class="block block-27"></div></div>
+                    <div class="col-2"><div class="block block-28"></div></div>
+                    <div class="col-2"><div class="block block-29"></div></div>
+                    <div class="col-2"><div class="block block-30"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <!-- = JQUERY = -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- = BOOTSTRAP JS = -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- = GSAP = -->
+    <script src="js/gsap.min.js"></script>
+    <!-- = PANZOOM JS = -->
+    <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
+    <!-- = CUSTOM JS = -->
+    <script>
+        var element = document.querySelector(".content");
+        panzoom(element, {
+        minZoom: 0.1,
+        maxZoom: 1,
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

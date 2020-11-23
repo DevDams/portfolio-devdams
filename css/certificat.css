@@ -1,0 +1,193 @@
+html, body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    width: 200%;
+    height: 200vh;
+}
+
+.line {
+    display: flex;
+}
+
+.block {
+    width: 400px;
+    height: 290px;
+    margin: 1em;
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: 1s;
+}
+
+
+.block:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.block-1 {
+    background: url('../images/certificat-1.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-2 {
+    background: url('../images/certificat-2.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-3 {
+    background: url('../images/certificat-3.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-4 {
+    background: url('../images/certificat-4.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-5 {
+    background: url('../images/certificat-5.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-6 {
+    background: url('../images/certificat-6.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-7 {
+    background: url('../images/certificat-7.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-8 {
+    background: url('../images/certificat-8.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-9 {
+    background: url('../images/certificat-9.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-10 {
+    background: url('../images/certificat-10.jpg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-11 {
+    background: url('../images/certificat-11.jpg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-12 {
+    background: url('../images/certificat-12.jpg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-13 {
+    background: url('../images/certificat-13.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-14 {
+    background: url('../images/certificat-14.jpg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-15 {
+    background: url('../images/certificat-15.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-16 {
+    background: url('../images/certificat-16.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-17 {
+    background: url('../images/certificat-17.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-18 {
+    background: url('../images/certificat-18.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-19 {
+    background: url('../images/certificat-19.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-20 {
+    background: url('../images/certificat-20.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-21 {
+    background: url('../images/certificat-21.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-22 {
+    background: url('../images/certificat-22.jpg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-23 {
+    background: url('../images/certificat-23.jpg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-24 {
+    background: url('../images/certificat-24.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-25 {
+    background: url('../images/certificat-25.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-26 {
+    background: url('../images/certificat-26.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-27 {
+    background: url('../images/certificat-27.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-28 {
+    background: url('../images/certificat-28.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-29 {
+    background: url('../images/certificat-29.png') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.block-30 {
+    background: url('../images/certificat-30.png') no-repeat 50% 50%;
+    background-size: contain;
+}
