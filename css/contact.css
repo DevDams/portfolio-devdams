@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     height: 40vh;
+    margin-top: 50px;
 }
 
 .form {
@@ -151,6 +152,10 @@
     .contact-content {
         position: relative;
         top: 30px;
+    }
+
+    .l-form {
+        margin-top: 0;
     }
 
     .form {
